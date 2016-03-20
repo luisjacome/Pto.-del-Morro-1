@@ -1,0 +1,88 @@
+/**para redimensionar la pagina
+
+
+@media  screen and (min-width: 480px)
+{
+	body
+	{
+background: navy;	
+	}
+}
+
+
+
+
+
+
+ /*dos colummnass
+@media  screen and (min-width: 480px)
+{
+	
+	#primary { width: 50%;
+
+		float:left;
+
+          }
+
+	#secondary { width: 40%;
+        float:right;
+
+	}
+
+}
+
+
+
+
+
+/**galeria sde tres columna con pantalla menor de 480*/ 
+
+@media  screen and (min-width: 480px)
+{
+	
+	#primary { width: 50%;
+
+		float:left;
+
+          }
+
+	#secondary { width: 40%;
+                 float:right;}
+
+
+   #galeria li{ width: 28.333%; }
+
+   #galeria li:nth-child(3n+1)
+ 
+          {clear:left;}
+
+
+    .profile-photo{
+    	float: left;
+    	margin: 0.5% 120px 0;}
+
+}
+
+
+
+/*para pantalla mayores a 660  se quita el fondo y se mueve la tecla a la derecha */
+@media  screen and (min-width: 660px)
+
+nav{ background:none;
+	float: left;
+	font-size: 1.125em;
+	margin-right: 5%;
+	text-align: right;
+	width: 45%;
+}
+
+#logo{ float: left;
+margin-left: 50%
+text-align:left;
+width: 45%;
+}
+
+h1{font-size: 1.5em;}
+h2{font-size: 0.825em;
+  margin-bottom: 20px;}
+

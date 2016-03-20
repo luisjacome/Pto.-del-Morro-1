@@ -1,0 +1,168 @@
+/* general**/
+
+
+a {
+    text-decoration: none;
+    /*color: #6ab47b;*/
+
+}
+#wrapper{
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 5%;
+  /*background: #ffdd73;*/
+	
+}
+#logo{      text-align: center;
+             margin:0;    
+     }
+
+img{ max-width: 60%;}
+
+header{ float: left;
+        margin: 0 0 30px 0;
+        padding: 5px 0 0 0;
+        width: 100%;
+        background: #ffdd73;
+      }
+
+header{ background: #6ab47b;
+      border-color:#599a68;
+      }
+
+
+         
+/**fuente de h1**/
+h1,h2{
+            color: #303D74;
+          }
+
+h1 { 
+  font-family:'PT Sans', sans-serif;  /**tipo de fuente**/
+  margin: 20px 0;                     /**margen de fuente*/
+  font-size: 1.75em;                  /**tamaño  de fuente**/
+  font-weight: normal;                /* peso de letra**/
+  line-height: 0.8em;
+}
+h2 { 
+  font-family:'PT Sans', sans-serif; 
+  margin: 20px 0;                     
+  font-size: 1.75em;                 
+  font-weight: normal;                
+  line-height: 0.8em;
+} 
+         
+
+/*Navigation*/
+nav a { font-weight: 800;
+        padding: 15px 10px;
+        }
+
+nav ul{
+  list-style: none;
+  margin: 0 10px;
+  text-align: center;
+  padding: 0;
+  }
+
+nav li { display: inline-block;} /*poner la galeria en bloque*/
+
+nav{
+ 	background: #6db69c;
+       }
+
+  nav a, nav a:visited{
+          	color: #fff;
+          }
+
+          nav a.selected {  /****cambio de c olores para galeria***/
+            color: #303D74;
+          }
+          nav a:hover {     /**da estilo al pasar el mouse sobre un link de galeria*/
+             color: #32673f;
+          }
+
+  /***galeria*/
+#galeria { margin: 0;                 
+           padding: 0;   
+           list-style:none;
+
+           }
+#galeria li {
+           float: left;
+           width: 40%; 
+           margin: 2.5%;
+                   
+           color: #974049;
+           
+           }
+
+ #galeria li a p{ 
+           
+           margin: 0%;
+           padding: 5%;
+           font-size: 0.75em;
+           color: #bdc3c7;
+           
+           }
+
+
+/***footer*/
+  footer{ 
+        font-size: 0.75em;
+        text-align: center;
+        clear: both;
+        padding-top: 50px;
+        color: #ccc;
+         
+        }
+
+.social-icon { 
+        width: 30px;
+        height: 30px;
+        margin: 0.5px;
+        }
+
+
+/**about para la pagina acerca*/
+.profile-photo {
+         display: block;
+         max-width: 550px;
+         margin: 0 auto 30opx;
+         border-radius: 100%;
+
+}
+
+
+
+/**contact*/
+
+.contact-info{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+   }
+
+.contact-info a{
+  display: inline-block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 50px;}
+  
+.contact-info li.phone a{
+     background-image: url('../img/phone.jpg');
+   }
+
+.contact-info li.mail a{ 
+     background-image: url('../img/mail.jpg');
+
+}
+
+.contact-info li.twiter a{
+     background-image: url('../img/twiter.jpg');
+
+}
+
